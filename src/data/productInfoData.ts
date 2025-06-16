@@ -1,4 +1,13 @@
-const productInfoData = {
+export type ProductInfo = {
+  title: string;
+  content: string;
+};
+
+export type ProductInfoMap = {
+  [category: string]: ProductInfo;
+};
+
+const productInfoData: ProductInfoMap = {
   全部: {
     title: '精選推薦，全方位寵物生活',
     content:

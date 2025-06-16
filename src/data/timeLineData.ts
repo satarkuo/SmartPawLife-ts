@@ -1,5 +1,13 @@
 import iconCamera from '../assets/img/front/icon-camera.svg';
-const timeLineData = [
+
+export type TimeLine = {
+  year: string;
+  icon: string;
+  title: string;
+  content: string;
+};
+
+const timeLineData: TimeLine[] = [
   {
     year: '2004 年',
     icon: 'business',

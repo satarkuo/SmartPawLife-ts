@@ -5,7 +5,14 @@ import banner2Md from '../assets/img/banner/home/banner2-md.png';
 import banner3Lg from '../assets/img/banner/home/banner3-lg.png';
 import banner3Md from '../assets/img/banner/home/banner3-md.png';
 
-const swiperBannerImages = [
+export type SwiperBanner = {
+  lg: string;
+  md: string;
+  title: string;
+  content: string;
+};
+
+const swiperBannerImages: SwiperBanner[] = [
   {
     lg: banner1Lg,
     md: banner1Md,
